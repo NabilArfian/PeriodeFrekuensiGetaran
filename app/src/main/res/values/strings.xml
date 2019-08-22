@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PeriodeFrekuensiGetaran</string>
+    <string name="periode">Periode</string>
+    <string name="frekuensi">frekuensi</string>
+    <string name="rumusnya_adalah_1_frekuensi">rumusnya adalah 1/frekuensi</string>
+    <string name="frekeuensi_yang_diinginkan">frekeuensi yang diinginkan</string>
+    <string name="hitung">hitung</string>
+    <string name="rumusnya_adalah_1_periode">rumusnya adalah 1 / periode</string>
+    <string name="periode_yang_diinginkan">periode yang diinginkan</string>
+    <string name="masukan_periode">Masukan Periode</string>
+    <string name="rumusnya_adalah_1_dibagi_periode">Rumusnya adalah 1 dibagi periode</string>
+    <string name="rumusnya_adalah_1_dibagi_frekuensi">Rumusnya adalah 1 dibagi frekuensi</string>
+    <string name="masukan_frekuensi">Masukan Frekuensi</string>
+</resources>
