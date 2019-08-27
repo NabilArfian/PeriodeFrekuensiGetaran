@@ -22,6 +22,14 @@
         android:text="@string/frekuensi"
         android:id="@+id/frekuensi"/>
 
+    <TextView
+        android:id="@+id/result_rec"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 
 </LinearLayout>

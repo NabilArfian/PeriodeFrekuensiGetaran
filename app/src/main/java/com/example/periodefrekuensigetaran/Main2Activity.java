@@ -1,11 +1,15 @@
 package com.example.periodefrekuensigetaran;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import java.net.URI;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
 
@@ -55,7 +59,11 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
             if (!tidakKosong)
             {
                 double hasil = rumus / hkm;
-                report.setText("Total\n"+String.valueOf(hasil));
+                Intent data = new Intent();
+                data.setData(Uri.parse("Total: "+String.valueOf(hasil)));
+                setResult(RESULT_OK, data);
+
+                finish();
 
             }
 
